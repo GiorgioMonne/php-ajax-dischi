@@ -26,7 +26,6 @@ main{
 .container{
     max-width:900px;
     margin:auto;
-    background-color: grey;
     display: flex;
     flex-wrap: wrap;
 
@@ -35,7 +34,7 @@ main{
 .carta{
     height: 350px;
     width: calc(900px / 5 - 10px);
-    background-color: aquamarine;
+    background-color: rgb(57, 74, 92);
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -55,6 +54,12 @@ main{
 }
 
 #title{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#autore{
     width: 150px;
     margin: 0 auto;
     text-align: center;

@@ -24,10 +24,12 @@
                 <div class="carta" v-for="brano in brani">
 
                     <div class="box">
-                        <img :src="`${brani.poster}`" alt="">
+                        <img :src="`${brano.poster}`" alt="">
                     </div>
 
-                    <h2 id="title" >{{brano.title}}</h2>
+                    <h2 id="title">{{brano.title}}</h2>
+
+                    <h3 id="autore">{{brano.author}}</h3>
 
                 </div>
 
