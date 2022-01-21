@@ -1,0 +1,62 @@
+/* ***COMMONS*** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(63, 75, 87);
+    padding: 5px;
+}
+
+header img{
+    height: 30px;
+}
+
+main{
+    height: calc(100vh - 40px);
+    width: 100%;
+    background-color: rgb(34, 45, 68);
+    padding-top:100px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.carta{
+    height: 350px;
+    width: calc(900px / 5 - 10px);
+    background-color: aquamarine;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.carta img{
+    height:150px;
+    width: 150px;
+}
+
+#title{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
